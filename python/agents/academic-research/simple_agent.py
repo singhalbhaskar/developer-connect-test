@@ -30,7 +30,7 @@ class ProductNameGenerator:
 
     vertexai.init(
         project=self.project_id,
-        location="europe-west3",
+        location="us-central1",
         credentials=creds,
     )
 
