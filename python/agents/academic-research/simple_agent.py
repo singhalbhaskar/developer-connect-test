@@ -36,7 +36,7 @@ class ProductNameGenerator:
 
     root_agent = llm_agent.LlmAgent(
         name="ProductNameGeneratorAgent",
-        model="gemini-2.0-flash",
+        model="gemini-2.5-flash",
         description="Agent to generate product names.",
     )
 
