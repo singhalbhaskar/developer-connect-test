@@ -64,6 +64,12 @@ class FixedProductNameGenerator():
 
 
 prod_name_generator = ProductNameGenerator(
-    project_id="reasoning-engine-test-1"
+    project_id="cloud-aiplatform-prober"
+)
+staging_name_generator = ProductNameGenerator(
+    project_id="ucaip-prober-staging"
+)
+autopush_name_generator = ProductNameGenerator(
+    project_id="ucaip-prober-autopush"
 )
 fixed_name_generator = FixedProductNameGenerator()
