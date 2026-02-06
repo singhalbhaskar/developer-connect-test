@@ -72,4 +72,7 @@ staging_name_generator = ProductNameGenerator(
 autopush_name_generator = ProductNameGenerator(
     project_id="ucaip-prober-autopush"
 )
+test_name_generator = ProductNameGenerator(
+    project_id="reasoning-engine-test-1"
+)
 fixed_name_generator = FixedProductNameGenerator()
